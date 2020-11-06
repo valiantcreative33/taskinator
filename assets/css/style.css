@@ -148,8 +148,10 @@ footer {
 }
 
 .btn:hover {
-  box-shadow: 0 2px var(--grey);
-  top: -2px;
+  box-shadow: 0 2px 4px var(--grey);
+  top: -1px;
+  color: var(--grey);
+  background-color: var(--tertiary);
 }
 .btn:active {
   box-shadow: 0 0px var(--grey);
